@@ -9,3 +9,5 @@ class Doador(Usuario):
     def registrar_doacao(self, material):
         self.historico_doacoes.append(material)
         print(f"Obrigado, {self.nome}! {material} doado com sucesso")
+
+# CLASSE DOADOR DO PROJETO
